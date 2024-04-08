@@ -24,6 +24,7 @@ public class UIButtonBorder implements Border {
 
 
     public void paintBorder(Component c, Graphics g, int x, int y, int width, int height) {
+        g.clipRect(x, y, width-1, height-1);
         g.drawRoundRect(x, y, width-1, height-1, radius, radius);
     }
 }

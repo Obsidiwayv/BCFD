@@ -1,4 +1,4 @@
-package space.wayvlyte.bcfd;
+package space.wayvlyte.bcfd.ui.windows;
 
 import javax.swing.*;
 
